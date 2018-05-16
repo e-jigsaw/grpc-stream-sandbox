@@ -1,12 +1,13 @@
 {
+  "private": true,
   "name": "grpc-stream-sandbox",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "gRPC stream sandbox",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Takaya Kobayashi (https://kbys.tk/y)",
+  "license": "MIT",
+  "dependencies": {
+    "grpc": "^1.11.3"
+  }
 }

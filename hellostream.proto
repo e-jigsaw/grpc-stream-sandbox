@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+service MultiGreeter {
+  rpc sayHello (HelloRequest) returns (stream HelloReply) {}
+}
+
+message HelloRequest {
+  string name = 1;
+  int32 num = 2;
+}
+
+message HelloReply {
+  string message = 1;
+}
